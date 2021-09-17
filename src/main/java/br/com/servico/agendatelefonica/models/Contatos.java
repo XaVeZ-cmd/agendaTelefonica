@@ -22,7 +22,7 @@ public class Contatos {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long idContato;
 
     @NotEmpty
     @Column(name = "Nome")
